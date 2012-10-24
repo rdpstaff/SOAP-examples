@@ -1,0 +1,9 @@
+Sample code for accessing RDP's soap services
+
+Currently samples exist for ruby and perl.  As far as I'm aware JAX-WS does not play well with python 
+wsdl generation implementations.
+
+Java clients can be easily created by binding the WSDL of the service you wish to use to java objects
+using the wsimport tool.
+
+A detailed description of the services can be found at http://rdp.cme.msu.edu/help/webServices.jsp
